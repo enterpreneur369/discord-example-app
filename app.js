@@ -53,7 +53,7 @@ app.post('/interactions', async function (req, res) {
         type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
         data: {
           // Fetches a random emoji to send from a helper function
-          content: 'Bot in scontructions please use the Web App: https://wakfudungeon.herokuapp.com/ ' + getRandomEmoji(),
+          content: 'Bot in contructions please use the Web App: https://wakfudungeon.herokuapp.com/ ' + getRandomEmoji(),
         },
       });
     }
